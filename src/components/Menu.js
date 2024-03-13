@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Menu = () => {
   return (
-    <nav>
+    <div className="menu">
       <ul>
-        <li><Link to="/">Inicio</Link></li>
-        <li><Link to="/cabanas">Cabañas</Link></li>
-        <li><Link to="/actividades">Actividades</Link></li>
-        <li><Link to="/preguntas">Preguntas</Link></li>
-        <li><Link to="/contacto">Contacto</Link></li>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/cabanas">Cabañas</a></li>
+        <li><a href="/actividades">Actividades</a></li>
+        <li><a href="/preguntas">Preguntas</a></li>
+        <li><a href="/contacto">Contacto</a></li>
       </ul>
-    </nav>
+    </div>
   );
 };
 

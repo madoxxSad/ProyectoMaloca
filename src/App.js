@@ -6,6 +6,7 @@ import CabanasPage from './components/CabanasPage';
 import ActividadesPage from './components/ActividadesPage';
 import PreguntasPage from './components/PreguntasPage';
 import ContactoPage from './components/ContactoPage';
+import './styles/styles.css'
 
 const App = () => {
   return (
