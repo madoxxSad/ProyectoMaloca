@@ -1,4 +1,9 @@
 import React from 'react';
+import kayak from '../images/kayak.png';
+import fotografia from '../images/fotografia.png';
+import senderismo from '../images/senderismo.png';
+import visitar from '../images/visitar.png';
+import descansar from '../images/descansar.png'
 
 const ActividadesPage = () => {
   return (
@@ -10,7 +15,7 @@ const ActividadesPage = () => {
       <div className='actList'>
         <div className='actividad'>
           <div className='actImg'>
-
+            <img src={kayak} className='imgActividad' alt="kayak" />
           </div>
           <div className='actDescription'>
            <h2>
@@ -28,7 +33,7 @@ const ActividadesPage = () => {
       <div className='actList'>
         <div className='actividad'>
           <div className='actImg'>
-      
+           <img src={senderismo} className='imgActividad' alt="senderismo" />
           </div>
           <div className='actDescription'>
             <h2>
@@ -49,7 +54,7 @@ const ActividadesPage = () => {
       <div className='actList'>
         <div className='actividad'>
           <div className='actImg'>
-      
+            <img src={fotografia} className='imgActividad' alt="fotografia" />
           </div>
           <div className='actDescription'>
             <h2>
@@ -67,7 +72,7 @@ const ActividadesPage = () => {
       <div className='actList'>
         <div className='actividad'>
           <div className='actImg'>
-      
+            <img src={visitar} className='imgActividad' alt="visitar" />
           </div>
           <div className='actDescription'>
             <h2>
@@ -76,24 +81,26 @@ const ActividadesPage = () => {
             <p>
               Si tienes planeado quedarte varios días, podrás visitar diferentes 
               playas que quedan cerca del lugar en auto.
-              <span>
-                El Bejuco (5 min): Famoso por sus botanas de mariscos y el color 
-                de los murales que hay pintados en sus casas.
-              </span>
-              <span>
-                Caleta (20 min ): Una playa familiar para ir a nadar en un mar tranquilo.
-              </span>
-              <span>
-                Nexpa (30 min): En este lugar podrás practicar surf o tomar alguna clase con un instructor.
-              </span>
-              <span>
-                Las pozas del atracón (45 min): Caminaras sobre una cañada para ir encontrando 
-                pozas en las cuales puedes nadar
-              </span>
-              <span>
-               Pichilinguillo (1 hr): Una playa donde encontrarás una playa cristalina y perfecta para nadar.  
-              </span>
-            </p>  
+            </p>
+            <ul>
+                <li>
+                  El Bejuco (5 min): Famoso por sus botanas de mariscos y el color 
+                  de los murales que hay pintados en sus casas.
+                </li>
+                <li>
+                  Caleta (20 min ): Una playa familiar para ir a nadar en un mar tranquilo.
+                </li>
+                <li>
+                  Nexpa (30 min): En este lugar podrás practicar surf o tomar alguna clase con un instructor.
+                </li>
+                <li>
+                  Las pozas del atracón (45 min): Caminaras sobre una cañada para ir encontrando 
+                  pozas en las cuales puedes nadar
+                </li>
+                <li>
+                  Pichilinguillo (1 hr): Una playa donde encontrarás una playa cristalina y perfecta para nadar.
+                </li>
+            </ul>  
           </div>
         </div>
       </div> 
@@ -101,7 +108,7 @@ const ActividadesPage = () => {
       <div className='actList'>
         <div className='actividad'>
           <div className='actImg'>
-      
+            <img src={descansar} className='imgActividad' alt="descansar" />
           </div>
           <div className='actDescription'>
             <h2>
